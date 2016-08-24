@@ -127,7 +127,7 @@ nav li{
 #inner{
 
 	width: 300px;
-
+	height: 160px;
 	/*background: 
 	linear-gradient(
 		to left, 
@@ -139,11 +139,14 @@ nav li{
 	background: rgba(255, 255, 255, 0.3);
 	text-align: center;
 	padding: 50px 0;
-	margin: 0 auto;
+	margin: auto;
 	
 	opacity: 0;
-	position: relative;
-	top: 160px;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 	
 	-webkit-transition: all 3s;
 	-moz-transition: all 3s;
@@ -1322,7 +1325,7 @@ figure:hover img{
 
 	#grey-sec .picSec {
 		width: 100%;
-		min-width: 550px;
+		/*min-width: 550px;*/
 		margin: 0 auto;
 	}
 
